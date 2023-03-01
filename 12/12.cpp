@@ -88,10 +88,15 @@ using namespace std;
 int main() {
     int n, m;
     cin >> n >> m;
-    vector<vector<bool>> relate(n, vector<bool>(n));// この発想はなかった。
+    // この発想はなかった。
+    // 無向グラフの場合、2次元配列を作ればいいのか。
+    vector<vector<bool>> relate(n, vector<bool>(n));
     for (int i = 0; i < m; i++) {
         int x, y;
         cin >> x >> y;
+        // 人は1から番号がつけられている。
+        // 配列は0なので下げる。
+
         x--;
         y--;
         relate[x][y] = true;
