@@ -48,3 +48,70 @@ int main()
 
 // 答え。
 
+#include <iostream>
+#include <vector>
+using namespace std;
+using ll = long long;
+
+// 最大クリークの問題
+int main()
+{
+    // 数の整理
+    // N = 国会議員の数
+    // M = 人間関係の数(x,y)
+
+    // 考え方
+    // 派閥に入れる・入れない2通り。
+    // 
+
+    // 回答
+    int N, M; cin >> N >> M;
+    vector<pair<int, int>> xy[10];
+    for (int i = 0; i < M; i++)
+    {
+        int x, y; cin >> x >> y;
+        xy[i].push_back(make_pair(x, y));
+        // setで重複をなくすとか？
+    }
+    // わからない・・・
+
+    cout << "";
+}
+
+
+
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    vector<vector<bool>> relate(n, vector<bool>(n));// この発想はなかった。
+    for (int i = 0; i < m; i++) {
+        int x, y;
+        cin >> x >> y;
+        x--;
+        y--;
+        relate[x][y] = true;
+        relate[y][x] = true;
+    }
+    int ans = 0;
+    for (int b = 0; b < (1 << n); b++) {
+        vector<int> t;
+        for (int i = 0; i < n; i++) {
+            if ((b >> i) & 1) t.push_back(i);
+        }
+        bool f = true;
+        for (int a : t) {
+            for (int b : t) {
+                if (a == b) continue;
+                f &= relate[a][b];
+            }
+        }
+        if (f)
+            ans = max(ans, (int)t.size());
+    }
+    cout << ans << endl;
+}
