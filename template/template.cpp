@@ -24,7 +24,7 @@ int main()
 
     }
 
-    cout << "";
+    cout << "" << endl;
 }
 
 
@@ -35,7 +35,7 @@ int main()
 
 
 // 配列の宣言
-// vector<int> s[10];
+// vector<int> s(r, vector<int> c);
 
 // 2次元配列の宣言と初期化
 // vector<vector<int>> array_2d(rows, vector<int>(cols, 0));
