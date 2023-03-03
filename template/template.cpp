@@ -3,14 +3,11 @@
 using namespace std;
 using ll = long long;
 
-// おそらくXXの問題
+// XXの問題
 int main()
 {
     // 数の整理
     // N = XXの数
-
-    // 条件の整理
-    // 
     
     // 回答
     int N, M; cin >> N >> M;
@@ -23,8 +20,8 @@ int main()
         }
 
     }
-
-    cout << "" << endl;
+    int ans;
+    cout << ans << endl;
 }
 
 
