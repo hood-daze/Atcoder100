@@ -4,11 +4,11 @@ using namespace std;
 using ll = long long;
 
 // XXの問題
+// 整理
+// N = XXの数
+
 int main()
 {
-    // 数の整理
-    // N = XXの数
-    
     // 回答
     int N, M; cin >> N >> M;
     for (int i = 0; i < M; i++)
