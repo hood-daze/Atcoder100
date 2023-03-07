@@ -77,7 +77,7 @@ int main() {
     sort(ary, ary + n + 1);
 
     long long sum = 0;
-    while (m--) {
+    while (m--) {// おしゃっれ
         int q;
         cin >> q;
         int t = lower_bound(ary, ary + n + 1, q) - ary;

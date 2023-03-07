@@ -1,6 +1,10 @@
 ﻿#include <iostream>
 #include <vector>
 #include <algorithm>
+
+#define inf ((1LL << 62) - (1LL << 31))
+#define all(x) (x).begin(), (x).end()
+
 using namespace std;
 using ll = long long;
 
