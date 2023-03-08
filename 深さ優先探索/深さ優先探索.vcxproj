@@ -24,6 +24,7 @@
     <ProjectGuid>{ad95c06a-8b09-4d84-9b81-7c5f2fe37ab5}</ProjectGuid>
     <RootNamespace>深さ優先探索</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>深さ優先探索テンプレート</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

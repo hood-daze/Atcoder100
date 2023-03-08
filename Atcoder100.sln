@@ -52,9 +52,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21", "21\21.vcxproj", "{1BF
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22", "22\22.vcxproj", "{F449CDE7-DC75-4E5E-B0C5-62C362C29A32}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "23", "23\23.vcxproj", "{73CAA913-DE44-44EE-9B6D-36D627BBEE46}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24", "23\23.vcxproj", "{73CAA913-DE44-44EE-9B6D-36D627BBEE46}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "深さ優先探索", "深さ優先探索\深さ優先探索.vcxproj", "{AD95C06A-8B09-4D84-9B81-7C5F2FE37AB5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "深さ優先探索テンプレート", "深さ優先探索\深さ優先探索.vcxproj", "{AD95C06A-8B09-4D84-9B81-7C5F2FE37AB5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25", "25\25.vcxproj", "{C17FCF7E-1793-4D5F-AF52-A72B043FB018}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -256,6 +258,14 @@ Global
 		{AD95C06A-8B09-4D84-9B81-7C5F2FE37AB5}.Release|x64.Build.0 = Release|x64
 		{AD95C06A-8B09-4D84-9B81-7C5F2FE37AB5}.Release|x86.ActiveCfg = Release|Win32
 		{AD95C06A-8B09-4D84-9B81-7C5F2FE37AB5}.Release|x86.Build.0 = Release|Win32
+		{C17FCF7E-1793-4D5F-AF52-A72B043FB018}.Debug|x64.ActiveCfg = Debug|x64
+		{C17FCF7E-1793-4D5F-AF52-A72B043FB018}.Debug|x64.Build.0 = Debug|x64
+		{C17FCF7E-1793-4D5F-AF52-A72B043FB018}.Debug|x86.ActiveCfg = Debug|Win32
+		{C17FCF7E-1793-4D5F-AF52-A72B043FB018}.Debug|x86.Build.0 = Debug|Win32
+		{C17FCF7E-1793-4D5F-AF52-A72B043FB018}.Release|x64.ActiveCfg = Release|x64
+		{C17FCF7E-1793-4D5F-AF52-A72B043FB018}.Release|x64.Build.0 = Release|x64
+		{C17FCF7E-1793-4D5F-AF52-A72B043FB018}.Release|x86.ActiveCfg = Release|Win32
+		{C17FCF7E-1793-4D5F-AF52-A72B043FB018}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
